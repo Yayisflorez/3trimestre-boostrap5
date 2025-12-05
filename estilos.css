@@ -371,6 +371,12 @@ nav {
 .navbar .text-m3 {
   color: #fff !important;
 }
+.text-m3{
+  font-size: 30px;
+}
+.navbar-nav{
+  font-size: 20px;
+}
 
 /* Enlaces */
 .navbar-nav .nav-link {
@@ -411,12 +417,13 @@ nav {
   background: transparent;
   transition: all 0.3s;
   margin-right: 20px;
+  font-size: 20px;
 }
 .btn-login-nav:hover,
 .btn-login-nav:focus {
-  background: #28a745;
-  color: #fff;
-  border-color: #28a745;
+  background: #ffffff;
+  color: #000000;
+  border-color: #000000;
 }
 .btn-login-nav:active {
   background: #218838 !important;
@@ -430,6 +437,7 @@ nav {
   color: #fff;
   border-color: #28a745;
   transition: all 0.3s;
+  font-size: 20px;
 }
 .btn-signup-nav:hover,
 .btn-signup-nav:focus {
